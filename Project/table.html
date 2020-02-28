@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Yamifood Restaurant - Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		table, td, th {
+          border: 1px solid black;
+          margin: 0 auto;
+	      position: relative;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" style="width: 200px;height: 60px;"/>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Register Page</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+					
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+
+	
+    <!-- Start Contact -->
+    <div class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+                    <br>
+                    <br>
+					<div class="heading-title text-center">
+                        <h2>Houses</h2>
+                        <br>
+                        <table id="myTable">
+                          <tr>
+                            <th> House Number </th>
+                            <th> Guardian Name </th>
+                            <th> Monthly reading </th>
+                            <th> Current reading </th>
+                            <th> Number of family members </th>
+                          </tr>
+                          <tr>
+                            <td>1234 </td>
+                            <td>Ali</td>   
+                            <td>234234535</td>
+                            <td>234235000</td>
+                            <td> 5 </td>
+                          </tr>
+                          <tr>
+                            <td> 23423 </td>
+                            <td>Same</td>   
+                            <td> 134233535 </td>
+                            <td> 134238535 </td>
+                            <td> 2 </td>
+                          </tr>
+                          <tr>
+                            <td> 13423 </td>
+                            <td>Heba</td>   
+                            <td> 534233535 </td>
+                            <td> 534278535 </td>
+                            <td> 6 </th>
+                          </tr>
+                          <tr>
+                            <td> 423 </td>
+                            <td>Nader</td>   
+                            <td> 634233535 </td>
+                            <td> 634458535 </td>
+                            <td> 10 </th>
+                          </tr>
+                          <tr>
+                            <td> 43 </td>
+                            <td>Mohammad</td>   
+                            <td> 234233535 </td>
+                            <td> 234458535 </td>
+                            <td> 4 </th>
+                          </tr>
+                          <tr>
+                            <td> 123 </td>
+                            <td>Khalaf</td>   
+                            <td> 334233535 </td>
+                            <td> 334458535 </td>
+                            <td> 3 </th>
+                          </tr>
+                          <tr>
+                            <td> 444 </td>
+                            <td>Nader</td>   
+                            <td> 534255535 </td>
+                            <td> 534548535 </td>
+                            <td> 4 </th>
+                          </tr>
+                        </table>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- End Contact -->
+	<div class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>Add NEW House</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<form id="contactForm">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="number" class="form-control" id="a" name="1" placeholder="House Number" required data-error="Please enter House Number">
+									<div class="help-block with-errors"></div>
+								</div>                                 
+                            </div>
+                            <div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control" id="f" placeholder="Guardian Name" required data-error="Please enter Guardian Name">
+									<div class="help-block with-errors"></div>
+								</div>                                 
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="number" placeholder="Number of family members" id="b" class="form-control" name="House Location" required data-error="Please enter Number of family members">
+									<div class="help-block with-errors"></div>
+								</div> 
+                            </div>
+                            <div class="col-md-12">
+								<div class="form-group">
+									<input type="text" placeholder="House Location" id="c" class="form-control" name="House Location" required data-error="Please enter House Location">
+									<div class="help-block with-errors"></div>
+								</div> 
+                            </div>
+                            <div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control" id="d" name="name" placeholder="Notes">
+									<div class="help-block with-errors"></div>
+								</div>                                 
+							</div>
+							<div class="col-md-12">
+								<div class="submit-button text-center">
+									<button class="btn btn-common" id="submit" type="button" onclick="myFunction()"><a href="table.html
+										" >Add</button>
+								
+									<div id="msgSubmit" class="h3 text-center hidden"></div> 
+									<div class="clearfix"></div> 
+								</div>
+							</div>
+						</div>            
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- Start Contact info -->
+<div class="contact-imfo-box">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<i class="fa fa-volume-control-phone"></i>
+				<div class="overflow-hidden">
+					<h4>Phone</h4>
+					<p class="lead">
+						+962788759102
+					</p>
+					<p class="lead">
+						+962799726353
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<i class="fa fa-envelope"></i>
+				<div class="overflow-hidden">
+					<h4>Email</h4>
+					<p class="lead">
+						m-altaher@mail.com
+					</p>
+					<p class="lead">
+						osama@greenstepjo.com
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<i class="fa fa-map-marker"></i>
+				<div class="overflow-hidden">
+					<h4>Location</h4>
+					<p class="lead">
+						Amman - Jordan
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<!-- End Footer -->
+	<script>
+        function myFunction() {
+          var table = document.getElementById("myTable");
+          var row = table.insertRow(1);
+          var cell1 = row.insertCell(0);
+          var cell2 = row.insertCell(1);
+          var cell3 = row.insertCell(2);
+          var cell4 = row.insertCell(3);
+          var cell5 = row.insertCell(4);
+          cell1.innerHTML = document.getElementById("a").value;
+          cell2.innerHTML = document.getElementById("f").value;
+          cell3.innerHTML = "0"
+          cell4.innerHTML = "0"
+          cell5.innerHTML = document.getElementById("b").value;
+          console.log("a")
+          document.getElementById("a").value = "";
+          document.getElementById("b").value = "";
+          document.getElementById("c").value = "";
+          document.getElementById("d").value = "";
+          document.getElementById("f").value= "";
+          alert("The House has been added");
+          return false
+        }
+        </script>
+        
+	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	
+	<script src="js/jquery.superslides.min.js"></script>
+	<script src="js/images-loded.min.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/baguetteBox.min.js"></script>
+	<script src="js/jquery.mapify.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
